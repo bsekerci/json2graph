@@ -5,7 +5,7 @@ Javascript library to show json data on graph
 
 **json2graph** is a free [graph drawing](http://en.wikipedia.org/wiki/Graph_drawing) library for JavaScript.
 
-It is relies on [Viva Graph](https://github.com/anvaka/VivaGraphJS) library to draw graph. 
+It relies on [Viva Graph](https://github.com/anvaka/VivaGraphJS) library to draw graph. 
 
 How to use
 ----------------------------------------------------
