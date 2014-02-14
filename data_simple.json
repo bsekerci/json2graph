@@ -1,0 +1,23 @@
+{
+	"types":
+	[
+		{
+			"name":"Applications",
+			"icon": "images/application-icon.png",
+			"nodes": [ {"id":11, "name":"Application 1" }, {"id":12, "name":"Application 2" } ]
+		},
+		{
+			"name":"Servers",
+			"icon": "images/server-icon.png",
+			"nodes": [ {"id":21, "name":"Server 1"}, {"id":22, "name":"Server 2" } ]
+		},
+		{
+			"name":"Databases",
+			"icon": "images/database-icon.png",
+			"nodes": [ {"id":31, "name":"Database 1" } ]
+		}
+	],
+	"relations": [
+	 	{"src":11, "dst":21}, {"src":12, "dst":22},	{"src":11, "dst":31}, {"src":12, "dst":31}, {"src":31, "dst":21}					
+	]
+}

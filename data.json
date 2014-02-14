@@ -1,0 +1,145 @@
+{
+	"types":
+	[
+	{
+		"name":"Applications",
+		"icon": "images/application-icon.png",
+		"nodes":
+			[
+			 	{"id":11, "name":"Application 1" },
+			 	{"id":12, "name":"Application 2" },
+			 	{"id":13, "name":"Application 3" },
+			 	{"id":14, "name":"Application 4" },
+			 	{"id":15, "name":"Application 5" },
+			 	{"id":16, "name":"Application 6" },
+			 	{"id":17, "name":"Application 7" },
+			 	{"id":18, "name":"Application 8" },
+			 	{"id":19, "name":"Application 9" }
+			]
+
+	},
+	{
+		"name":"Servers",
+		"icon": "images/server-icon.png",
+		"nodes":
+			[
+			 	{"id":21, "name":"Server 1", "x":"10%", "y":"50%" },
+			 	{"id":22, "name":"Server 2" },
+			 	{"id":23, "name":"Server 3" },
+			 	{"id":24, "name":"Server 4" },
+			 	{"id":25, "name":"Server 5" }			 	
+			]
+	},
+	{
+		"name":"Databases",
+		"icon": "images/database-icon.png",
+		"nodes":
+			[
+			 	{"id":31, "name":"Database 1", "x":"300", "y":"150" },
+			 	{"id":32, "name":"Database 2" },
+			 	{"id":33, "name":"Database 3" }
+			]
+	},
+	{
+		"name":"Services",
+		"icon": "images/service-icon.png",
+		"nodes":
+			[
+			 	{"id":41, "name":"Service 1" },
+			 	{"id":42, "name":"Service 2" },
+			 	{"id":43, "name":"Service 3" },
+			 	{"id":44, "name":"Service 4" },
+			 	{"id":45, "name":"Service 5" },			 	
+			 	{"id":46, "name":"Service 1" },
+			 	{"id":47, "name":"Service 2" },
+			 	{"id":48, "name":"Service 3" },
+			 	{"id":49, "name":"Service 4" }
+			]
+	},
+	{
+		"name":"Users",
+		"icon": "images/user-icon.png",
+		"nodes":
+			[
+			 	{"id":51, "name":"User 1" },
+			 	{"id":52, "name":"User 2" },
+			 	{"id":53, "name":"User 3" },
+			 	{"id":54, "name":"User 4" },
+			 	{"id":55, "name":"User 5" },			 	
+			 	{"id":56, "name":"User 1" },
+			 	{"id":57, "name":"User 2" },
+			 	{"id":58, "name":"User 3" },
+			 	{"id":59, "name":"User 4" },
+			 	{"id":60, "name":"User 10" },
+			 	{"id":61, "name":"User 11" },
+			 	{"id":62, "name":"User 12" },
+			 	{"id":63, "name":"User 12" },
+			 	{"id":64, "name":"User 14" },			 	
+			 	{"id":65, "name":"User 15" },
+			 	{"id":66, "name":"User 16" },
+			 	{"id":67, "name":"User 17" },
+			 	{"id":68, "name":"User 18" },
+				{"id":69, "name":"User 19" }
+			]
+	}
+	],
+	"relations": [
+	 	{"src":11, "dst":21},
+	 	{"src":12, "dst":21},
+	 	{"src":13, "dst":22},
+	 	{"src":14, "dst":22},
+	 	{"src":15, "dst":23},
+	 	{"src":16, "dst":23},
+	 	{"src":17, "dst":23},
+	 	{"src":18, "dst":24},
+	 	{"src":19, "dst":25},
+		
+		{"src":11, "dst":31},
+	 	{"src":12, "dst":31},
+	 	{"src":13, "dst":31},
+		{"src":14, "dst":32},
+	 	{"src":15, "dst":32},
+	 	{"src":16, "dst":32},
+	 	{"src":17, "dst":33},
+	 	{"src":18, "dst":33},
+	 	{"src":19, "dst":33},
+		{"src":19, "dst":31},
+		
+		{"src":31, "dst":21},
+	 	{"src":32, "dst":22},
+	 	{"src":33, "dst":23},
+		
+		{"src":41, "dst":11},
+	 	{"src":42, "dst":11},
+	 	{"src":43, "dst":13},
+	 	{"src":44, "dst":14},
+	 	{"src":45, "dst":15},
+	 	{"src":46, "dst":16},
+	 	{"src":47, "dst":17},
+	 	{"src":48, "dst":18},
+	 	{"src":49, "dst":19},
+
+		{"src":51, "dst":41},
+		{"src":52, "dst":41},
+		{"src":53, "dst":42},
+		{"src":54, "dst":42},
+		{"src":55, "dst":43},
+		{"src":56, "dst":43},
+		{"src":57, "dst":44},
+		{"src":58, "dst":44},
+		{"src":59, "dst":45},
+		{"src":60, "dst":45},
+		{"src":61, "dst":46},
+		{"src":62, "dst":46},
+		{"src":63, "dst":47},
+		{"src":64, "dst":47},
+		{"src":65, "dst":48},
+		{"src":66, "dst":48},
+		{"src":67, "dst":49},
+		{"src":68, "dst":49},
+		{"src":69, "dst":49}
+		
+			
+	]
+
+}

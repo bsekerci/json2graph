@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>json2graph demo</title>
+        <script src="vivagraph/vivagraph.js"></script>
+        <script src="d3/d3.v3.min.js"></script>
+        <script src="json2graph/json2graph.v1.js"></script>
+		
+        <script type='text/javascript'>
+            function onLoad() {
+				loadJsonData("data.json", 10);
+            }
+        </script>
+		
+        <style type='text/css'>
+			body, svg, #graphContainer {
+                height: 95%;
+                width: 95%;
+                position: absolute;
+                margin: 0;
+            }
+        </style>
+		
+    </head>
+    <body onload="onLoad()" style="background-color: lightgray;">
+
+        <div >
+			<table>
+				<tr id="selectRow">
+					<!-- this part will be filled by json2graph script -->
+				</tr>
+				<tr>
+					<td colspan="2" >
+						<div id ="main" >
+							<div id='graphContainer' style="background-color: white;"></div>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+		
+		
+    </body>
+</html>
